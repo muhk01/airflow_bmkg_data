@@ -13,17 +13,21 @@ docker compose up -d
 
 ## Setup Environment Variable
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_bmkg_data/main/img/1.PNG)
+
 Copy paste variable.json into Airflow UI at "Admin" - "Variables"
 
 ## Database Connection
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_bmkg_data/main/img/2.PNG)
-Setup connection for PostgreSQL in purpose for using PostgresOperator in Airflow UI at 
+
+Setup connection for PostgreSQL in purpose for using PostgresOperator in Airflow UI at "Admin" - "Connections"
 
 ## SMTP Authentication Setup
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_bmkg_data/main/img/3.PNG)
+
 This case is using Gmail Services, make sure setup two factor auth, and enable "App Password" Option
 
 ## Result
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_bmkg_data/main/img/4.PNG)
+
 This case suppose more than earthquake is occur in a day.
 
