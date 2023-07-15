@@ -1,0 +1,13 @@
+{
+	"var_bmkg" : {
+  			"username": "airflow",
+  			"password": "airflow",
+			"server": "postgres",
+			"port": "5432",
+			"database": "airflow",
+			"link_bmkg": "https://data.bmkg.go.id/DataMKG/TEWS/gempaterkini.json",
+			"sender_address": "sender@gmail.com",
+			"receiver_address": "receive@gmail.com",
+			"sender_pass": "app-password"
+		}
+}
