@@ -1,4 +1,8 @@
 # Earthquake ETL into DWH and Send GMAIL Notifications.
+This project flow is first scrap daily BMKG Data in JSON Format, soured from (data.bmkg.go.id)
+then move current reading of Data into temporary table, for purpose to avoid duplication before writing into main table,
+after that move data from temporary table into main table by comparing the occurances and date,
+finally we check in main table if any earthquake occurs if so then send email else do nothing.
 
 ## How to run
 to run this project by firing up the docker
